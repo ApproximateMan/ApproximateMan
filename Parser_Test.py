@@ -8,7 +8,6 @@
 # Silenium
 
 import requests
-from selenium import webdriver
 
 def fetch(url, params):
     headers = params['headers']
